@@ -4,4 +4,4 @@
 
 ### _burnmodel.pbs:_
 #### Portable Batch System file using Bash
-##### -This file is the main script controlling the Serpent program, refueling python script, and data management.
+-This file is the main script controlling the Serpent program, refueling python script, and data management.
