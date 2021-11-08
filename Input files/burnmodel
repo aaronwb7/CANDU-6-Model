@@ -1,0 +1,121 @@
+% --- CANDU Quarter-Core --- %
+
+set title "CANDU Burn Model"
+
+% --- Fuel Materials --- %
+
+include "fuelmats"
+
+% --- Structure, Moderator, Coolant Materials --- %
+
+include "structuremats"
+
+% --- XS Data --- %
+
+%Thermal scattering data
+therm lwtr lwj3.11t
+therm hwtr hwj3.11t
+
+%XS library (ENDFBVII)
+set acelib "/app/afit/serpent/xsdata/version0/endfb71/s2v0_endfb71.xsdata"
+
+%Decay library (ENDFBVII)
+set declib "/app/afit/serpent/xsdata/endfb7/sss_endfb7.dec" 
+
+%Fission yield library (ENDFBVII)
+set nfylib "/app/afit/serpent/xsdata/endfb7/sss_endfb7.nfy"
+
+%Unresolved resonance correction
+set ures 1  92234.09c 92235.09c 92238.09c 94239.09c 94240.09c
+
+%DBRC
+set dbrc 0.1e-6 1e-3 92234.00c 92235.00c 92238.00c 94239.00c 94240.00c
+
+% --- Fuel Pin Geometry --- %
+
+include "fuelpins"
+
+% --- Bundle Geometry --- %
+
+include "bundles"
+
+% --- Channel Geometry --- %
+
+include "channels"
+
+% --- Core Geometry --- %
+
+include "core"
+
+% --- Grid Thinning --- %
+
+%set egrid 5E-5 %Serpent reports results not significantly affected until above 1E-3 tolerance.
+
+% --- Boundary conditions --- %
+
+set usym 0 3 2 0.0 0.0 270 90 1
+
+% --- Neutron population and criticality cycles --- %
+
+set pop 100000 1000 40	
+set fsp 1 5                                    %fission source passing
+
+% --- Shannon Entropy Check --- %
+
+%set his 1
+%set entr 17 17 17
+
+% --- Calculate volumes --- %
+
+%set mcvol 10000000
+
+% --- Geometry and mesh plots --- %
+
+%plot 3 1000 1000
+%plot 3 8000 8000 297.18 0.0 379.7 -379.7 0.0
+%plot 2 8000 12424 -40 0.0 379.7 0.0 594.36
+
+% --- Group Constant Generation --- %
+
+%Off
+set gcu -1
+
+% --- Channel Power Distribution --- %
+
+det channelpowers dr -8 void dx 0.0 314.325 11 dy -314.325 0.0 11
+
+% --- Burnup Settings --- %
+
+set powdens 0.02134   %kW/g
+%set power 545000000   %W 600 MW
+
+dep daytot 0.93333 1.86667 2.8                                                  %days
+set bumode 2 16 								%CRAM 16 substeps
+set pcc 4									%Linear Extrapolation / Quadratic Interpolation
+set inventory top 500 mass							%return all isotopic data
+
+% --- Neutron Spectrum Detectors --- %
+
+%det detcore n de energygrid du 0 dv 3.42143e8
+%
+%det detAA1 n de energygrid dm AA1 dv 2144.404
+%det detAA7 n de energygrid dm AA7 dv 2144.404
+%
+%det detKA1 n de energygrid dm KA1 dv 2144.404
+%det detKA7 n de energygrid dm KA7 dv 2144.404
+%
+%det detHH1 n de energygrid dm HH1 dv 2144.404
+%det detHH7 n de energygrid dm HH7 dv 2144.404
+%
+%det detEE1 n de energygrid dm EE1 dv 2144.404
+%det detEE7 n de energygrid dm EE7 dv 2144.404
+%
+%ene energygrid 3 500 1e-11 2e1
+
+% --- Optimization --- %
+
+set memfrac 1
+set shbuf 0 0
+set bala 1
+
+% ------------------- %

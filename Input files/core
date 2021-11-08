@@ -1,0 +1,60 @@
+%--------------------------------------------------------------------------------------------------%
+%-------- CANDU Core Geometry Input --------%
+%--------------------------------------------------------------------------------------------------%
+
+% --- Channel Lattices
+
+%lat UNI TYPE   X0       Y0        Z0      NX NY NZ   PITCHX PITCHY PITCHZ    UNI1 UNI2
+lat chanA 11 	28.575   -157.1625 0.0     2  11 1    28.575 28.575 594.36 	  AK BK AJ BJ AI BI AH BH AG BG AF BF AE BE AD BD AC BC AB BB AA BA
+lat chanB 11 	71.4375  -157.1625 0.0     1  11 1    28.575 28.575 594.36 	  CK CJ CI CH CG CF CE CD CC CB CA
+lat chanC 11 	100.0125 -142.875  0.0     1  10 1    28.575 28.575 594.36 	  DJ DI DH DG DF DE DD DC DB DA
+lat chanD 11 	142.875  -142.875  0.0     2  10 1    28.575 28.575 594.36 	  EJ FJ EI FI EH FH EG FG EF FF EE FE ED FD EC FC EB FB EA FA
+lat chanE 11 	185.7375 -128.5875 0.0     1  9  1    28.575 28.575 594.36 	  GI GH GG GF GE GD GC GB GA
+lat chanF 11 	214.3125 -114.3    0.0     1  8  1    28.575 28.575 594.36 	  HH HG HF HE HD HC HB HA
+lat chanG 11 	242.8875 -100.0125 0.0     1  7  1    28.575 28.575 594.36 	  IG IF IE ID IC IB IA
+lat chanH 11 	271.4625 -71.4375  0.0     1  5  1    28.575 28.575 594.36 	  JE JD JC JB JA
+lat chanI 11 	300.0375 -42.8625  0.0     1  3  1    28.575 28.575 594.36 	  KC KB KA
+
+surf sA     cuboid 0.0     57.15   -314.325  0.0 0.0 594.36
+surf sB     cuboid 57.15   85.725  -314.325  0.0 0.0 594.36
+surf sC     cuboid 85.725  114.3   -285.75   0.0 0.0 594.36
+surf sD     cuboid 114.3   171.45  -285.75   0.0 0.0 594.36
+surf sE     cuboid 171.45  200.025 -257.175  0.0 0.0 594.36
+surf sF     cuboid 200.025 228.6   -228.6    0.0 0.0 594.36
+surf sG     cuboid 228.6   257.175 -200.025  0.0 0.0 594.36
+surf sH     cuboid 257.175 285.75  -142.875  0.0 0.0 594.36
+surf sI     cuboid 285.75  314.325 -85.725   0.0 0.0 594.36
+
+
+% ---------------- Adjuster Rods --------------------------%
+
+include "adjuster"
+
+% ---------------------------------------------------------%
+
+%fuel cells
+cell cA  0 fill  chanA -sA c15 c110 c25 c210 u15 u110 u25 u210 l15 l110 l25 l210
+cell cB  0 fill  chanB -sB c25 c210          u25 u210          l25 l210
+cell cC  0 fill  chanC -sC c35 c310          u35 u310          l35 l310
+cell cD  0 fill  chanD -sD c35 c310 c45 c410 u35 u310 u45 u410 l35 l310 l45 l410
+cell cE  0 fill  chanE -sE c45 c410          u45 u410          l45 l410
+cell cF  0 fill  chanF -sF
+cell cG  0 fill  chanG -sG
+cell cH  0 fill  chanH -sH
+cell cI  0 fill  chanI -sI
+
+surf coremoder cyl 0.0 0.0 337.8 0.0 594.36
+
+surf coreshield cyl 0.0 0.0 379.7 0.0 594.36
+
+surf bound  cuboid 0.0     379.7  -379.7   0.0 0.0 594.36
+
+
+cell c1  0 moder sA sB sC sD sE sF sG sH sI -coremoder -bound
+cell c15 0 caltube -coreshield coremoder -bound
+cell c2  0 void coreshield -bound
+cell c3  0 outside bound
+
+
+
+

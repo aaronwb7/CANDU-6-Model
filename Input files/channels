@@ -1,0 +1,574 @@
+%--------------------------------------------------------------------------------------------------%
+%-------- CANDU Fuel Channels Input --------%
+%--------------------------------------------------------------------------------------------------%
+
+lat AAlat 9 0.0 0.0 12 0.0 AA1bun 49.53 AA2bun 99.06 AA3bun 148.59 AA4bun 198.12 AA5bun 247.65 AA6bun 297.18 AA7bun 346.71 AA8bun 396.24 AA9bun 445.77 AA10bun 495.30 AA11bun 544.83 AA12bun
+surf AAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AAcell AA fill AAlat -AAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BAlat 9 0.0 0.0 12 0.0 BA1bun 49.53 BA2bun 99.06 BA3bun 148.59 BA4bun 198.12 BA5bun 247.65 BA6bun 297.18 BA7bun 346.71 BA8bun 396.24 BA9bun 445.77 BA10bun 495.30 BA11bun 544.83 BA12bun
+surf BAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BAcell BA fill BAlat -BAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CAlat 9 0.0 0.0 12 0.0 CA1bun 49.53 CA2bun 99.06 CA3bun 148.59 CA4bun 198.12 CA5bun 247.65 CA6bun 297.18 CA7bun 346.71 CA8bun 396.24 CA9bun 445.77 CA10bun 495.30 CA11bun 544.83 CA12bun
+surf CAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CAcell CA fill CAlat -CAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DAlat 9 0.0 0.0 12 0.0 DA1bun 49.53 DA2bun 99.06 DA3bun 148.59 DA4bun 198.12 DA5bun 247.65 DA6bun 297.18 DA7bun 346.71 DA8bun 396.24 DA9bun 445.77 DA10bun 495.30 DA11bun 544.83 DA12bun
+surf DAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DAcell DA fill DAlat -DAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EAlat 9 0.0 0.0 12 0.0 EA1bun 49.53 EA2bun 99.06 EA3bun 148.59 EA4bun 198.12 EA5bun 247.65 EA6bun 297.18 EA7bun 346.71 EA8bun 396.24 EA9bun 445.77 EA10bun 495.30 EA11bun 544.83 EA12bun
+surf EAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EAcell EA fill EAlat -EAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FAlat 9 0.0 0.0 12 0.0 FA1bun 49.53 FA2bun 99.06 FA3bun 148.59 FA4bun 198.12 FA5bun 247.65 FA6bun 297.18 FA7bun 346.71 FA8bun 396.24 FA9bun 445.77 FA10bun 495.30 FA11bun 544.83 FA12bun
+surf FAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FAcell FA fill FAlat -FAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GAlat 9 0.0 0.0 12 0.0 GA1bun 49.53 GA2bun 99.06 GA3bun 148.59 GA4bun 198.12 GA5bun 247.65 GA6bun 297.18 GA7bun 346.71 GA8bun 396.24 GA9bun 445.77 GA10bun 495.30 GA11bun 544.83 GA12bun
+surf GAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GAcell GA fill GAlat -GAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HAlat 9 0.0 0.0 12 0.0 HA1bun 49.53 HA2bun 99.06 HA3bun 148.59 HA4bun 198.12 HA5bun 247.65 HA6bun 297.18 HA7bun 346.71 HA8bun 396.24 HA9bun 445.77 HA10bun 495.30 HA11bun 544.83 HA12bun
+surf HAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HAcell HA fill HAlat -HAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IAlat 9 0.0 0.0 12 0.0 IA1bun 49.53 IA2bun 99.06 IA3bun 148.59 IA4bun 198.12 IA5bun 247.65 IA6bun 297.18 IA7bun 346.71 IA8bun 396.24 IA9bun 445.77 IA10bun 495.30 IA11bun 544.83 IA12bun
+surf IAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell IAcell IA fill IAlat -IAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat JAlat 9 0.0 0.0 12 0.0 JA1bun 49.53 JA2bun 99.06 JA3bun 148.59 JA4bun 198.12 JA5bun 247.65 JA6bun 297.18 JA7bun 346.71 JA8bun 396.24 JA9bun 445.77 JA10bun 495.30 JA11bun 544.83 JA12bun
+surf JAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell JAcell JA fill JAlat -JAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat KAlat 9 0.0 0.0 12 0.0 KA1bun 49.53 KA2bun 99.06 KA3bun 148.59 KA4bun 198.12 KA5bun 247.65 KA6bun 297.18 KA7bun 346.71 KA8bun 396.24 KA9bun 445.77 KA10bun 495.30 KA11bun 544.83 KA12bun
+surf KAs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell KAcell KA fill KAlat -KAs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat ABlat 9 0.0 0.0 12 0.0 AB1bun 49.53 AB2bun 99.06 AB3bun 148.59 AB4bun 198.12 AB5bun 247.65 AB6bun 297.18 AB7bun 346.71 AB8bun 396.24 AB9bun 445.77 AB10bun 495.30 AB11bun 544.83 AB12bun
+surf ABs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell ABcell AB fill ABlat -ABs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BBlat 9 0.0 0.0 12 0.0 BB1bun 49.53 BB2bun 99.06 BB3bun 148.59 BB4bun 198.12 BB5bun 247.65 BB6bun 297.18 BB7bun 346.71 BB8bun 396.24 BB9bun 445.77 BB10bun 495.30 BB11bun 544.83 BB12bun
+surf BBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BBcell BB fill BBlat -BBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CBlat 9 0.0 0.0 12 0.0 CB1bun 49.53 CB2bun 99.06 CB3bun 148.59 CB4bun 198.12 CB5bun 247.65 CB6bun 297.18 CB7bun 346.71 CB8bun 396.24 CB9bun 445.77 CB10bun 495.30 CB11bun 544.83 CB12bun
+surf CBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CBcell CB fill CBlat -CBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DBlat 9 0.0 0.0 12 0.0 DB1bun 49.53 DB2bun 99.06 DB3bun 148.59 DB4bun 198.12 DB5bun 247.65 DB6bun 297.18 DB7bun 346.71 DB8bun 396.24 DB9bun 445.77 DB10bun 495.30 DB11bun 544.83 DB12bun
+surf DBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DBcell DB fill DBlat -DBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EBlat 9 0.0 0.0 12 0.0 EB1bun 49.53 EB2bun 99.06 EB3bun 148.59 EB4bun 198.12 EB5bun 247.65 EB6bun 297.18 EB7bun 346.71 EB8bun 396.24 EB9bun 445.77 EB10bun 495.30 EB11bun 544.83 EB12bun
+surf EBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EBcell EB fill EBlat -EBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FBlat 9 0.0 0.0 12 0.0 FB1bun 49.53 FB2bun 99.06 FB3bun 148.59 FB4bun 198.12 FB5bun 247.65 FB6bun 297.18 FB7bun 346.71 FB8bun 396.24 FB9bun 445.77 FB10bun 495.30 FB11bun 544.83 FB12bun
+surf FBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FBcell FB fill FBlat -FBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GBlat 9 0.0 0.0 12 0.0 GB1bun 49.53 GB2bun 99.06 GB3bun 148.59 GB4bun 198.12 GB5bun 247.65 GB6bun 297.18 GB7bun 346.71 GB8bun 396.24 GB9bun 445.77 GB10bun 495.30 GB11bun 544.83 GB12bun
+surf GBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GBcell GB fill GBlat -GBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HBlat 9 0.0 0.0 12 0.0 HB1bun 49.53 HB2bun 99.06 HB3bun 148.59 HB4bun 198.12 HB5bun 247.65 HB6bun 297.18 HB7bun 346.71 HB8bun 396.24 HB9bun 445.77 HB10bun 495.30 HB11bun 544.83 HB12bun
+surf HBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HBcell HB fill HBlat -HBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IBlat 9 0.0 0.0 12 0.0 IB1bun 49.53 IB2bun 99.06 IB3bun 148.59 IB4bun 198.12 IB5bun 247.65 IB6bun 297.18 IB7bun 346.71 IB8bun 396.24 IB9bun 445.77 IB10bun 495.30 IB11bun 544.83 IB12bun
+surf IBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell IBcell IB fill IBlat -IBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat JBlat 9 0.0 0.0 12 0.0 JB1bun 49.53 JB2bun 99.06 JB3bun 148.59 JB4bun 198.12 JB5bun 247.65 JB6bun 297.18 JB7bun 346.71 JB8bun 396.24 JB9bun 445.77 JB10bun 495.30 JB11bun 544.83 JB12bun
+surf JBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell JBcell JB fill JBlat -JBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat KBlat 9 0.0 0.0 12 0.0 KB1bun 49.53 KB2bun 99.06 KB3bun 148.59 KB4bun 198.12 KB5bun 247.65 KB6bun 297.18 KB7bun 346.71 KB8bun 396.24 KB9bun 445.77 KB10bun 495.30 KB11bun 544.83 KB12bun
+surf KBs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell KBcell KB fill KBlat -KBs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AClat 9 0.0 0.0 12 0.0 AC1bun 49.53 AC2bun 99.06 AC3bun 148.59 AC4bun 198.12 AC5bun 247.65 AC6bun 297.18 AC7bun 346.71 AC8bun 396.24 AC9bun 445.77 AC10bun 495.30 AC11bun 544.83 AC12bun
+surf ACs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell ACcell AC fill AClat -ACs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BClat 9 0.0 0.0 12 0.0 BC1bun 49.53 BC2bun 99.06 BC3bun 148.59 BC4bun 198.12 BC5bun 247.65 BC6bun 297.18 BC7bun 346.71 BC8bun 396.24 BC9bun 445.77 BC10bun 495.30 BC11bun 544.83 BC12bun
+surf BCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BCcell BC fill BClat -BCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CClat 9 0.0 0.0 12 0.0 CC1bun 49.53 CC2bun 99.06 CC3bun 148.59 CC4bun 198.12 CC5bun 247.65 CC6bun 297.18 CC7bun 346.71 CC8bun 396.24 CC9bun 445.77 CC10bun 495.30 CC11bun 544.83 CC12bun
+surf CCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CCcell CC fill CClat -CCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DClat 9 0.0 0.0 12 0.0 DC1bun 49.53 DC2bun 99.06 DC3bun 148.59 DC4bun 198.12 DC5bun 247.65 DC6bun 297.18 DC7bun 346.71 DC8bun 396.24 DC9bun 445.77 DC10bun 495.30 DC11bun 544.83 DC12bun
+surf DCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DCcell DC fill DClat -DCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EClat 9 0.0 0.0 12 0.0 EC1bun 49.53 EC2bun 99.06 EC3bun 148.59 EC4bun 198.12 EC5bun 247.65 EC6bun 297.18 EC7bun 346.71 EC8bun 396.24 EC9bun 445.77 EC10bun 495.30 EC11bun 544.83 EC12bun
+surf ECs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell ECcell EC fill EClat -ECs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FClat 9 0.0 0.0 12 0.0 FC1bun 49.53 FC2bun 99.06 FC3bun 148.59 FC4bun 198.12 FC5bun 247.65 FC6bun 297.18 FC7bun 346.71 FC8bun 396.24 FC9bun 445.77 FC10bun 495.30 FC11bun 544.83 FC12bun
+surf FCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FCcell FC fill FClat -FCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GClat 9 0.0 0.0 12 0.0 GC1bun 49.53 GC2bun 99.06 GC3bun 148.59 GC4bun 198.12 GC5bun 247.65 GC6bun 297.18 GC7bun 346.71 GC8bun 396.24 GC9bun 445.77 GC10bun 495.30 GC11bun 544.83 GC12bun
+surf GCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GCcell GC fill GClat -GCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HClat 9 0.0 0.0 12 0.0 HC1bun 49.53 HC2bun 99.06 HC3bun 148.59 HC4bun 198.12 HC5bun 247.65 HC6bun 297.18 HC7bun 346.71 HC8bun 396.24 HC9bun 445.77 HC10bun 495.30 HC11bun 544.83 HC12bun
+surf HCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HCcell HC fill HClat -HCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IClat 9 0.0 0.0 12 0.0 IC1bun 49.53 IC2bun 99.06 IC3bun 148.59 IC4bun 198.12 IC5bun 247.65 IC6bun 297.18 IC7bun 346.71 IC8bun 396.24 IC9bun 445.77 IC10bun 495.30 IC11bun 544.83 IC12bun
+surf ICs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell ICcell IC fill IClat -ICs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat JClat 9 0.0 0.0 12 0.0 JC1bun 49.53 JC2bun 99.06 JC3bun 148.59 JC4bun 198.12 JC5bun 247.65 JC6bun 297.18 JC7bun 346.71 JC8bun 396.24 JC9bun 445.77 JC10bun 495.30 JC11bun 544.83 JC12bun
+surf JCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell JCcell JC fill JClat -JCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat KClat 9 0.0 0.0 12 0.0 KC1bun 49.53 KC2bun 99.06 KC3bun 148.59 KC4bun 198.12 KC5bun 247.65 KC6bun 297.18 KC7bun 346.71 KC8bun 396.24 KC9bun 445.77 KC10bun 495.30 KC11bun 544.83 KC12bun
+surf KCs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell KCcell KC fill KClat -KCs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat ADlat 9 0.0 0.0 12 0.0 AD1bun 49.53 AD2bun 99.06 AD3bun 148.59 AD4bun 198.12 AD5bun 247.65 AD6bun 297.18 AD7bun 346.71 AD8bun 396.24 AD9bun 445.77 AD10bun 495.30 AD11bun 544.83 AD12bun
+surf ADs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell ADcell AD fill ADlat -ADs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BDlat 9 0.0 0.0 12 0.0 BD1bun 49.53 BD2bun 99.06 BD3bun 148.59 BD4bun 198.12 BD5bun 247.65 BD6bun 297.18 BD7bun 346.71 BD8bun 396.24 BD9bun 445.77 BD10bun 495.30 BD11bun 544.83 BD12bun
+surf BDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BDcell BD fill BDlat -BDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CDlat 9 0.0 0.0 12 0.0 CD1bun 49.53 CD2bun 99.06 CD3bun 148.59 CD4bun 198.12 CD5bun 247.65 CD6bun 297.18 CD7bun 346.71 CD8bun 396.24 CD9bun 445.77 CD10bun 495.30 CD11bun 544.83 CD12bun
+surf CDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CDcell CD fill CDlat -CDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DDlat 9 0.0 0.0 12 0.0 DD1bun 49.53 DD2bun 99.06 DD3bun 148.59 DD4bun 198.12 DD5bun 247.65 DD6bun 297.18 DD7bun 346.71 DD8bun 396.24 DD9bun 445.77 DD10bun 495.30 DD11bun 544.83 DD12bun
+surf DDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DDcell DD fill DDlat -DDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EDlat 9 0.0 0.0 12 0.0 ED1bun 49.53 ED2bun 99.06 ED3bun 148.59 ED4bun 198.12 ED5bun 247.65 ED6bun 297.18 ED7bun 346.71 ED8bun 396.24 ED9bun 445.77 ED10bun 495.30 ED11bun 544.83 ED12bun
+surf EDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EDcell ED fill EDlat -EDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FDlat 9 0.0 0.0 12 0.0 FD1bun 49.53 FD2bun 99.06 FD3bun 148.59 FD4bun 198.12 FD5bun 247.65 FD6bun 297.18 FD7bun 346.71 FD8bun 396.24 FD9bun 445.77 FD10bun 495.30 FD11bun 544.83 FD12bun
+surf FDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FDcell FD fill FDlat -FDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GDlat 9 0.0 0.0 12 0.0 GD1bun 49.53 GD2bun 99.06 GD3bun 148.59 GD4bun 198.12 GD5bun 247.65 GD6bun 297.18 GD7bun 346.71 GD8bun 396.24 GD9bun 445.77 GD10bun 495.30 GD11bun 544.83 GD12bun
+surf GDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GDcell GD fill GDlat -GDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HDlat 9 0.0 0.0 12 0.0 HD1bun 49.53 HD2bun 99.06 HD3bun 148.59 HD4bun 198.12 HD5bun 247.65 HD6bun 297.18 HD7bun 346.71 HD8bun 396.24 HD9bun 445.77 HD10bun 495.30 HD11bun 544.83 HD12bun
+surf HDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HDcell HD fill HDlat -HDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IDlat 9 0.0 0.0 12 0.0 ID1bun 49.53 ID2bun 99.06 ID3bun 148.59 ID4bun 198.12 ID5bun 247.65 ID6bun 297.18 ID7bun 346.71 ID8bun 396.24 ID9bun 445.77 ID10bun 495.30 ID11bun 544.83 ID12bun
+surf IDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell IDcell ID fill IDlat -IDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat JDlat 9 0.0 0.0 12 0.0 JD1bun 49.53 JD2bun 99.06 JD3bun 148.59 JD4bun 198.12 JD5bun 247.65 JD6bun 297.18 JD7bun 346.71 JD8bun 396.24 JD9bun 445.77 JD10bun 495.30 JD11bun 544.83 JD12bun
+surf JDs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell JDcell JD fill JDlat -JDs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AElat 9 0.0 0.0 12 0.0 AE1bun 49.53 AE2bun 99.06 AE3bun 148.59 AE4bun 198.12 AE5bun 247.65 AE6bun 297.18 AE7bun 346.71 AE8bun 396.24 AE9bun 445.77 AE10bun 495.30 AE11bun 544.83 AE12bun
+surf AEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AEcell AE fill AElat -AEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BElat 9 0.0 0.0 12 0.0 BE1bun 49.53 BE2bun 99.06 BE3bun 148.59 BE4bun 198.12 BE5bun 247.65 BE6bun 297.18 BE7bun 346.71 BE8bun 396.24 BE9bun 445.77 BE10bun 495.30 BE11bun 544.83 BE12bun
+surf BEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BEcell BE fill BElat -BEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CElat 9 0.0 0.0 12 0.0 CE1bun 49.53 CE2bun 99.06 CE3bun 148.59 CE4bun 198.12 CE5bun 247.65 CE6bun 297.18 CE7bun 346.71 CE8bun 396.24 CE9bun 445.77 CE10bun 495.30 CE11bun 544.83 CE12bun
+surf CEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CEcell CE fill CElat -CEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DElat 9 0.0 0.0 12 0.0 DE1bun 49.53 DE2bun 99.06 DE3bun 148.59 DE4bun 198.12 DE5bun 247.65 DE6bun 297.18 DE7bun 346.71 DE8bun 396.24 DE9bun 445.77 DE10bun 495.30 DE11bun 544.83 DE12bun
+surf DEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DEcell DE fill DElat -DEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EElat 9 0.0 0.0 12 0.0 EE1bun 49.53 EE2bun 99.06 EE3bun 148.59 EE4bun 198.12 EE5bun 247.65 EE6bun 297.18 EE7bun 346.71 EE8bun 396.24 EE9bun 445.77 EE10bun 495.30 EE11bun 544.83 EE12bun
+surf EEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EEcell EE fill EElat -EEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FElat 9 0.0 0.0 12 0.0 FE1bun 49.53 FE2bun 99.06 FE3bun 148.59 FE4bun 198.12 FE5bun 247.65 FE6bun 297.18 FE7bun 346.71 FE8bun 396.24 FE9bun 445.77 FE10bun 495.30 FE11bun 544.83 FE12bun
+surf FEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FEcell FE fill FElat -FEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GElat 9 0.0 0.0 12 0.0 GE1bun 49.53 GE2bun 99.06 GE3bun 148.59 GE4bun 198.12 GE5bun 247.65 GE6bun 297.18 GE7bun 346.71 GE8bun 396.24 GE9bun 445.77 GE10bun 495.30 GE11bun 544.83 GE12bun
+surf GEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GEcell GE fill GElat -GEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HElat 9 0.0 0.0 12 0.0 HE1bun 49.53 HE2bun 99.06 HE3bun 148.59 HE4bun 198.12 HE5bun 247.65 HE6bun 297.18 HE7bun 346.71 HE8bun 396.24 HE9bun 445.77 HE10bun 495.30 HE11bun 544.83 HE12bun
+surf HEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HEcell HE fill HElat -HEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IElat 9 0.0 0.0 12 0.0 IE1bun 49.53 IE2bun 99.06 IE3bun 148.59 IE4bun 198.12 IE5bun 247.65 IE6bun 297.18 IE7bun 346.71 IE8bun 396.24 IE9bun 445.77 IE10bun 495.30 IE11bun 544.83 IE12bun
+surf IEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell IEcell IE fill IElat -IEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat JElat 9 0.0 0.0 12 0.0 JE1bun 49.53 JE2bun 99.06 JE3bun 148.59 JE4bun 198.12 JE5bun 247.65 JE6bun 297.18 JE7bun 346.71 JE8bun 396.24 JE9bun 445.77 JE10bun 495.30 JE11bun 544.83 JE12bun
+surf JEs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell JEcell JE fill JElat -JEs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AFlat 9 0.0 0.0 12 0.0 AF1bun 49.53 AF2bun 99.06 AF3bun 148.59 AF4bun 198.12 AF5bun 247.65 AF6bun 297.18 AF7bun 346.71 AF8bun 396.24 AF9bun 445.77 AF10bun 495.30 AF11bun 544.83 AF12bun
+surf AFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AFcell AF fill AFlat -AFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BFlat 9 0.0 0.0 12 0.0 BF1bun 49.53 BF2bun 99.06 BF3bun 148.59 BF4bun 198.12 BF5bun 247.65 BF6bun 297.18 BF7bun 346.71 BF8bun 396.24 BF9bun 445.77 BF10bun 495.30 BF11bun 544.83 BF12bun
+surf BFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BFcell BF fill BFlat -BFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CFlat 9 0.0 0.0 12 0.0 CF1bun 49.53 CF2bun 99.06 CF3bun 148.59 CF4bun 198.12 CF5bun 247.65 CF6bun 297.18 CF7bun 346.71 CF8bun 396.24 CF9bun 445.77 CF10bun 495.30 CF11bun 544.83 CF12bun
+surf CFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CFcell CF fill CFlat -CFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DFlat 9 0.0 0.0 12 0.0 DF1bun 49.53 DF2bun 99.06 DF3bun 148.59 DF4bun 198.12 DF5bun 247.65 DF6bun 297.18 DF7bun 346.71 DF8bun 396.24 DF9bun 445.77 DF10bun 495.30 DF11bun 544.83 DF12bun
+surf DFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DFcell DF fill DFlat -DFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EFlat 9 0.0 0.0 12 0.0 EF1bun 49.53 EF2bun 99.06 EF3bun 148.59 EF4bun 198.12 EF5bun 247.65 EF6bun 297.18 EF7bun 346.71 EF8bun 396.24 EF9bun 445.77 EF10bun 495.30 EF11bun 544.83 EF12bun
+surf EFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EFcell EF fill EFlat -EFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FFlat 9 0.0 0.0 12 0.0 FF1bun 49.53 FF2bun 99.06 FF3bun 148.59 FF4bun 198.12 FF5bun 247.65 FF6bun 297.18 FF7bun 346.71 FF8bun 396.24 FF9bun 445.77 FF10bun 495.30 FF11bun 544.83 FF12bun
+surf FFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FFcell FF fill FFlat -FFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GFlat 9 0.0 0.0 12 0.0 GF1bun 49.53 GF2bun 99.06 GF3bun 148.59 GF4bun 198.12 GF5bun 247.65 GF6bun 297.18 GF7bun 346.71 GF8bun 396.24 GF9bun 445.77 GF10bun 495.30 GF11bun 544.83 GF12bun
+surf GFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GFcell GF fill GFlat -GFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HFlat 9 0.0 0.0 12 0.0 HF1bun 49.53 HF2bun 99.06 HF3bun 148.59 HF4bun 198.12 HF5bun 247.65 HF6bun 297.18 HF7bun 346.71 HF8bun 396.24 HF9bun 445.77 HF10bun 495.30 HF11bun 544.83 HF12bun
+surf HFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HFcell HF fill HFlat -HFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IFlat 9 0.0 0.0 12 0.0 IF1bun 49.53 IF2bun 99.06 IF3bun 148.59 IF4bun 198.12 IF5bun 247.65 IF6bun 297.18 IF7bun 346.71 IF8bun 396.24 IF9bun 445.77 IF10bun 495.30 IF11bun 544.83 IF12bun
+surf IFs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell IFcell IF fill IFlat -IFs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AGlat 9 0.0 0.0 12 0.0 AG1bun 49.53 AG2bun 99.06 AG3bun 148.59 AG4bun 198.12 AG5bun 247.65 AG6bun 297.18 AG7bun 346.71 AG8bun 396.24 AG9bun 445.77 AG10bun 495.30 AG11bun 544.83 AG12bun
+surf AGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AGcell AG fill AGlat -AGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BGlat 9 0.0 0.0 12 0.0 BG1bun 49.53 BG2bun 99.06 BG3bun 148.59 BG4bun 198.12 BG5bun 247.65 BG6bun 297.18 BG7bun 346.71 BG8bun 396.24 BG9bun 445.77 BG10bun 495.30 BG11bun 544.83 BG12bun
+surf BGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BGcell BG fill BGlat -BGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CGlat 9 0.0 0.0 12 0.0 CG1bun 49.53 CG2bun 99.06 CG3bun 148.59 CG4bun 198.12 CG5bun 247.65 CG6bun 297.18 CG7bun 346.71 CG8bun 396.24 CG9bun 445.77 CG10bun 495.30 CG11bun 544.83 CG12bun
+surf CGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CGcell CG fill CGlat -CGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DGlat 9 0.0 0.0 12 0.0 DG1bun 49.53 DG2bun 99.06 DG3bun 148.59 DG4bun 198.12 DG5bun 247.65 DG6bun 297.18 DG7bun 346.71 DG8bun 396.24 DG9bun 445.77 DG10bun 495.30 DG11bun 544.83 DG12bun
+surf DGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DGcell DG fill DGlat -DGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EGlat 9 0.0 0.0 12 0.0 EG1bun 49.53 EG2bun 99.06 EG3bun 148.59 EG4bun 198.12 EG5bun 247.65 EG6bun 297.18 EG7bun 346.71 EG8bun 396.24 EG9bun 445.77 EG10bun 495.30 EG11bun 544.83 EG12bun
+surf EGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EGcell EG fill EGlat -EGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FGlat 9 0.0 0.0 12 0.0 FG1bun 49.53 FG2bun 99.06 FG3bun 148.59 FG4bun 198.12 FG5bun 247.65 FG6bun 297.18 FG7bun 346.71 FG8bun 396.24 FG9bun 445.77 FG10bun 495.30 FG11bun 544.83 FG12bun
+surf FGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FGcell FG fill FGlat -FGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GGlat 9 0.0 0.0 12 0.0 GG1bun 49.53 GG2bun 99.06 GG3bun 148.59 GG4bun 198.12 GG5bun 247.65 GG6bun 297.18 GG7bun 346.71 GG8bun 396.24 GG9bun 445.77 GG10bun 495.30 GG11bun 544.83 GG12bun
+surf GGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GGcell GG fill GGlat -GGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HGlat 9 0.0 0.0 12 0.0 HG1bun 49.53 HG2bun 99.06 HG3bun 148.59 HG4bun 198.12 HG5bun 247.65 HG6bun 297.18 HG7bun 346.71 HG8bun 396.24 HG9bun 445.77 HG10bun 495.30 HG11bun 544.83 HG12bun
+surf HGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HGcell HG fill HGlat -HGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat IGlat 9 0.0 0.0 12 0.0 IG1bun 49.53 IG2bun 99.06 IG3bun 148.59 IG4bun 198.12 IG5bun 247.65 IG6bun 297.18 IG7bun 346.71 IG8bun 396.24 IG9bun 445.77 IG10bun 495.30 IG11bun 544.83 IG12bun
+surf IGs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell IGcell IG fill IGlat -IGs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AHlat 9 0.0 0.0 12 0.0 AH1bun 49.53 AH2bun 99.06 AH3bun 148.59 AH4bun 198.12 AH5bun 247.65 AH6bun 297.18 AH7bun 346.71 AH8bun 396.24 AH9bun 445.77 AH10bun 495.30 AH11bun 544.83 AH12bun
+surf AHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AHcell AH fill AHlat -AHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BHlat 9 0.0 0.0 12 0.0 BH1bun 49.53 BH2bun 99.06 BH3bun 148.59 BH4bun 198.12 BH5bun 247.65 BH6bun 297.18 BH7bun 346.71 BH8bun 396.24 BH9bun 445.77 BH10bun 495.30 BH11bun 544.83 BH12bun
+surf BHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BHcell BH fill BHlat -BHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CHlat 9 0.0 0.0 12 0.0 CH1bun 49.53 CH2bun 99.06 CH3bun 148.59 CH4bun 198.12 CH5bun 247.65 CH6bun 297.18 CH7bun 346.71 CH8bun 396.24 CH9bun 445.77 CH10bun 495.30 CH11bun 544.83 CH12bun
+surf CHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CHcell CH fill CHlat -CHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DHlat 9 0.0 0.0 12 0.0 DH1bun 49.53 DH2bun 99.06 DH3bun 148.59 DH4bun 198.12 DH5bun 247.65 DH6bun 297.18 DH7bun 346.71 DH8bun 396.24 DH9bun 445.77 DH10bun 495.30 DH11bun 544.83 DH12bun
+surf DHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DHcell DH fill DHlat -DHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EHlat 9 0.0 0.0 12 0.0 EH1bun 49.53 EH2bun 99.06 EH3bun 148.59 EH4bun 198.12 EH5bun 247.65 EH6bun 297.18 EH7bun 346.71 EH8bun 396.24 EH9bun 445.77 EH10bun 495.30 EH11bun 544.83 EH12bun
+surf EHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EHcell EH fill EHlat -EHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FHlat 9 0.0 0.0 12 0.0 FH1bun 49.53 FH2bun 99.06 FH3bun 148.59 FH4bun 198.12 FH5bun 247.65 FH6bun 297.18 FH7bun 346.71 FH8bun 396.24 FH9bun 445.77 FH10bun 495.30 FH11bun 544.83 FH12bun
+surf FHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FHcell FH fill FHlat -FHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GHlat 9 0.0 0.0 12 0.0 GH1bun 49.53 GH2bun 99.06 GH3bun 148.59 GH4bun 198.12 GH5bun 247.65 GH6bun 297.18 GH7bun 346.71 GH8bun 396.24 GH9bun 445.77 GH10bun 495.30 GH11bun 544.83 GH12bun
+surf GHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GHcell GH fill GHlat -GHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat HHlat 9 0.0 0.0 12 0.0 HH1bun 49.53 HH2bun 99.06 HH3bun 148.59 HH4bun 198.12 HH5bun 247.65 HH6bun 297.18 HH7bun 346.71 HH8bun 396.24 HH9bun 445.77 HH10bun 495.30 HH11bun 544.83 HH12bun
+surf HHs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell HHcell HH fill HHlat -HHs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AIlat 9 0.0 0.0 12 0.0 AI1bun 49.53 AI2bun 99.06 AI3bun 148.59 AI4bun 198.12 AI5bun 247.65 AI6bun 297.18 AI7bun 346.71 AI8bun 396.24 AI9bun 445.77 AI10bun 495.30 AI11bun 544.83 AI12bun
+surf AIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AIcell AI fill AIlat -AIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BIlat 9 0.0 0.0 12 0.0 BI1bun 49.53 BI2bun 99.06 BI3bun 148.59 BI4bun 198.12 BI5bun 247.65 BI6bun 297.18 BI7bun 346.71 BI8bun 396.24 BI9bun 445.77 BI10bun 495.30 BI11bun 544.83 BI12bun
+surf BIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BIcell BI fill BIlat -BIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CIlat 9 0.0 0.0 12 0.0 CI1bun 49.53 CI2bun 99.06 CI3bun 148.59 CI4bun 198.12 CI5bun 247.65 CI6bun 297.18 CI7bun 346.71 CI8bun 396.24 CI9bun 445.77 CI10bun 495.30 CI11bun 544.83 CI12bun
+surf CIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CIcell CI fill CIlat -CIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DIlat 9 0.0 0.0 12 0.0 DI1bun 49.53 DI2bun 99.06 DI3bun 148.59 DI4bun 198.12 DI5bun 247.65 DI6bun 297.18 DI7bun 346.71 DI8bun 396.24 DI9bun 445.77 DI10bun 495.30 DI11bun 544.83 DI12bun
+surf DIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DIcell DI fill DIlat -DIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EIlat 9 0.0 0.0 12 0.0 EI1bun 49.53 EI2bun 99.06 EI3bun 148.59 EI4bun 198.12 EI5bun 247.65 EI6bun 297.18 EI7bun 346.71 EI8bun 396.24 EI9bun 445.77 EI10bun 495.30 EI11bun 544.83 EI12bun
+surf EIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EIcell EI fill EIlat -EIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FIlat 9 0.0 0.0 12 0.0 FI1bun 49.53 FI2bun 99.06 FI3bun 148.59 FI4bun 198.12 FI5bun 247.65 FI6bun 297.18 FI7bun 346.71 FI8bun 396.24 FI9bun 445.77 FI10bun 495.30 FI11bun 544.83 FI12bun
+surf FIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FIcell FI fill FIlat -FIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat GIlat 9 0.0 0.0 12 0.0 GI1bun 49.53 GI2bun 99.06 GI3bun 148.59 GI4bun 198.12 GI5bun 247.65 GI6bun 297.18 GI7bun 346.71 GI8bun 396.24 GI9bun 445.77 GI10bun 495.30 GI11bun 544.83 GI12bun
+surf GIs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell GIcell GI fill GIlat -GIs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AJlat 9 0.0 0.0 12 0.0 AJ1bun 49.53 AJ2bun 99.06 AJ3bun 148.59 AJ4bun 198.12 AJ5bun 247.65 AJ6bun 297.18 AJ7bun 346.71 AJ8bun 396.24 AJ9bun 445.77 AJ10bun 495.30 AJ11bun 544.83 AJ12bun
+surf AJs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AJcell AJ fill AJlat -AJs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BJlat 9 0.0 0.0 12 0.0 BJ1bun 49.53 BJ2bun 99.06 BJ3bun 148.59 BJ4bun 198.12 BJ5bun 247.65 BJ6bun 297.18 BJ7bun 346.71 BJ8bun 396.24 BJ9bun 445.77 BJ10bun 495.30 BJ11bun 544.83 BJ12bun
+surf BJs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BJcell BJ fill BJlat -BJs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CJlat 9 0.0 0.0 12 0.0 CJ1bun 49.53 CJ2bun 99.06 CJ3bun 148.59 CJ4bun 198.12 CJ5bun 247.65 CJ6bun 297.18 CJ7bun 346.71 CJ8bun 396.24 CJ9bun 445.77 CJ10bun 495.30 CJ11bun 544.83 CJ12bun
+surf CJs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CJcell CJ fill CJlat -CJs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat DJlat 9 0.0 0.0 12 0.0 DJ1bun 49.53 DJ2bun 99.06 DJ3bun 148.59 DJ4bun 198.12 DJ5bun 247.65 DJ6bun 297.18 DJ7bun 346.71 DJ8bun 396.24 DJ9bun 445.77 DJ10bun 495.30 DJ11bun 544.83 DJ12bun
+surf DJs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell DJcell DJ fill DJlat -DJs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat EJlat 9 0.0 0.0 12 0.0 EJ1bun 49.53 EJ2bun 99.06 EJ3bun 148.59 EJ4bun 198.12 EJ5bun 247.65 EJ6bun 297.18 EJ7bun 346.71 EJ8bun 396.24 EJ9bun 445.77 EJ10bun 495.30 EJ11bun 544.83 EJ12bun
+surf EJs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell EJcell EJ fill EJlat -EJs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat FJlat 9 0.0 0.0 12 0.0 FJ1bun 49.53 FJ2bun 99.06 FJ3bun 148.59 FJ4bun 198.12 FJ5bun 247.65 FJ6bun 297.18 FJ7bun 346.71 FJ8bun 396.24 FJ9bun 445.77 FJ10bun 495.30 FJ11bun 544.83 FJ12bun
+surf FJs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell FJcell FJ fill FJlat -FJs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat AKlat 9 0.0 0.0 12 0.0 AK1bun 49.53 AK2bun 99.06 AK3bun 148.59 AK4bun 198.12 AK5bun 247.65 AK6bun 297.18 AK7bun 346.71 AK8bun 396.24 AK9bun 445.77 AK10bun 495.30 AK11bun 544.83 AK12bun
+surf AKs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell AKcell AK fill AKlat -AKs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat BKlat 9 0.0 0.0 12 0.0 BK1bun 49.53 BK2bun 99.06 BK3bun 148.59 BK4bun 198.12 BK5bun 247.65 BK6bun 297.18 BK7bun 346.71 BK8bun 396.24 BK9bun 445.77 BK10bun 495.30 BK11bun 544.83 BK12bun
+surf BKs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell BKcell BK fill BKlat -BKs
+
+%--------------------------------------------------------------------------------------------------%
+
+lat CKlat 9 0.0 0.0 12 0.0 CK1bun 49.53 CK2bun 99.06 CK3bun 148.59 CK4bun 198.12 CK5bun 247.65 CK6bun 297.18 CK7bun 346.71 CK8bun 396.24 CK9bun 445.77 CK10bun 495.30 CK11bun 544.83 CK12bun
+surf CKs cuboid -14.2875 14.2875 -14.2875 14.2875 0 594.36
+cell CKcell CK fill CKlat -CKs
+
+%--------------------------------------------------------------------------------------------------%
+

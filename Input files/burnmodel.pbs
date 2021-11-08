@@ -1,0 +1,53 @@
+#!/bin/bash
+
+#PBS -q unlimited
+#PBS -N msg_4_nodes
+#PBS -l nodes=7:ppn=16
+#PBS -l walltime=10000:00:00
+#PBS -j oe
+
+module load tools/serpent-2.1.31
+module use /app/afit/modulefiles
+module load python3_2
+module load gcc7.2.0
+module load openmpi1.8.7-gcc7.2.0
+
+cd /home/aaronwb7/burnmodel/
+
+export OMP_PROC_BIND=true
+export OMP_PLACES=threads
+export OMP_NUM_THREADS=16
+
+ext1="_dep.m"
+ext2="_det3.m"
+ext3="_res.m"
+
+for i in {235..500}
+do
+sed -i 's/$//' *
+
+echo "Starting Depletion..."
+mpirun -np 7 --map-by node sss2 -omp 16 burnmodel
+wait
+echo "Depletion Completed."
+
+mv burnmodel_det3.m /home/aaronwb7/databurn/burnmodel$i$ext2
+wait
+
+echo "Starting Refueling..."
+python3 refueler.py
+
+check=$?
+if [[ $check -ne 0 ]]
+then
+break
+fi
+
+echo "Refueled: $i"
+echo "Saving Data..."
+mv burnmodel_dep.m /home/aaronwb7/databurn/burnmodel$i$ext1
+mv burnmodel_res.m /home/aaronwb7/databurn/burnmodel$i$ext3
+wait
+echo "Data Saved."
+
+done

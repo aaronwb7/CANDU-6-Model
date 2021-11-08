@@ -1,0 +1,272 @@
+%--------------------------------------------------------------------------------------------------%
+%-------- CANDU Adjuster Rod Input --------%
+%--------------------------------------------------------------------------------------------------%
+
+%Adjuster Rod c1 -----------------------------------%
+surf c11 cyly  0.0 297.18  0.650 -85.725 0.0
+surf c12 cyly  0.0 297.18  3.607 -85.725 0.0
+surf c13 cyly  0.0 297.18  3.725 -85.725 0.0
+surf c14 cyly  0.0 297.18  4.519 -85.725 0.0
+surf c15 cyly  0.0 297.18  4.572 -85.725 0.0
+surf c16 cyly  0.0 297.18  0.710 -171.45 -85.725
+surf c17 cyly  0.0 297.18  3.607 -171.45 -85.725
+surf c18 cyly  0.0 297.18  3.690 -171.45 -85.725
+surf c19 cyly  0.0 297.18  4.519 -171.45 -85.725
+surf c110 cyly 0.0 297.18  4.572 -171.45 -85.725
+cell cc11  0 SS304 -c11      -bound
+cell cc12  0 moder -c12  c11 -bound
+cell cc13  0 SS304 -c13  c12 -bound
+cell cc14  0 moder -c14  c13 -bound
+cell cc15  0 clad  -c15  c14 -bound
+cell cc16  0 SS304 -c16      -bound
+cell cc17  0 moder -c17  c16 -bound
+cell cc18  0 SS304 -c18  c17 -bound
+cell cc19  0 moder -c19  c18 -bound
+cell cc110 0 clad  -c110 c19 -bound
+
+%Adjuster Rod c2 -----------------------------------%
+%surf name cyly x0  z0   r     y0      y1
+surf c21 cyly 57.15 297.18  0.650 -85.725 0.0
+surf c22 cyly 57.15 297.18  3.607 -85.725 0.0
+surf c23 cyly 57.15 297.18  3.725 -85.725 0.0
+surf c24 cyly 57.15 297.18  4.519 -85.725 0.0
+surf c25 cyly 57.15 297.18  4.572 -85.725 0.0
+surf c26 cyly 57.15 297.18  0.710 -171.45 -85.725
+surf c27 cyly 57.15 297.18  3.607 -171.45 -85.725
+surf c28 cyly 57.15 297.18  3.690 -171.45 -85.725
+surf c29 cyly 57.15 297.18  4.519 -171.45 -85.725
+surf c210 cyly 57.15 297.18 4.572 -171.45 -85.725
+cell cc21  0 SS304 -c21
+cell cc22  0 moder -c22 c21
+cell cc23  0 SS304 -c23 c22
+cell cc24  0 moder -c24 c23
+cell cc25  0 clad  -c25 c24
+cell cc26  0 SS304 -c26 
+cell cc27  0 moder -c27 c26
+cell cc28  0 SS304 -c28 c27
+cell cc29  0 moder -c29 c28
+cell cc210 0 clad  -c210 c29
+
+%Adjuster Rod c3 -----------------------------------%
+surf c31 cyly  114.3 297.18  0.650 -85.725 0.0
+surf c32 cyly  114.3 297.18  3.607 -85.725 0.0
+surf c33 cyly  114.3 297.18  3.725 -85.725 0.0
+surf c34 cyly  114.3 297.18  4.519 -85.725 0.0
+surf c35 cyly  114.3 297.18  4.572 -85.725 0.0
+surf c36 cyly  114.3 297.18  0.710 -171.45 -85.725
+surf c37 cyly  114.3 297.18  3.607 -171.45 -85.725
+surf c38 cyly  114.3 297.18  3.690 -171.45 -85.725
+surf c39 cyly  114.3 297.18  4.519 -171.45 -85.725
+surf c310 cyly 114.3 297.18  4.572 -171.45 -85.725
+cell cc31  0 SS304 -c31
+cell cc32  0 moder -c32 c31
+cell cc33  0 SS304 -c33 c32
+cell cc34  0 moder -c34 c33
+cell cc35  0 clad  -c35 c34
+cell cc36  0 SS304 -c36 
+cell cc37  0 moder -c37 c36
+cell cc38  0 SS304 -c38 c37
+cell cc39  0 moder -c39 c38
+cell cc310 0 clad  -c310 c39
+
+%Adjuster Rod c4 -----------------------------------%
+surf c41 cyly  171.45 297.18  0.650 -85.725 0.0
+surf c42 cyly  171.45 297.18  3.607 -85.725 0.0
+surf c43 cyly  171.45 297.18  3.725 -85.725 0.0
+surf c44 cyly  171.45 297.18  4.519 -85.725 0.0
+surf c45 cyly  171.45 297.18  4.572 -85.725 0.0
+surf c46 cyly  171.45 297.18  0.710 -171.45 -85.725
+surf c47 cyly  171.45 297.18  3.607 -171.45 -85.725
+surf c48 cyly  171.45 297.18  3.690 -171.45 -85.725
+surf c49 cyly  171.45 297.18  4.519 -171.45 -85.725
+surf c410 cyly 171.45 297.18  4.572 -171.45 -85.725
+cell cc41  0 SS304 -c41
+cell cc42  0 moder -c42  c41
+cell cc43  0 SS304 -c43  c42
+cell cc44  0 moder -c44  c43
+cell cc45  0 clad  -c45  c44
+cell cc46  0 SS304 -c46  
+cell cc47  0 moder -c47  c46
+cell cc48  0 SS304 -c48  c47
+cell cc49  0 moder -c49  c48
+cell cc410 0 clad  -c410 c49
+
+
+%Adjuster Rod u1 -----------------------------------%
+surf u11 cyly  0.0 377.18  0.650 -85.725 0.0
+surf u12 cyly  0.0 377.18  3.607 -85.725 0.0
+surf u13 cyly  0.0 377.18  3.725 -85.725 0.0
+surf u14 cyly  0.0 377.18  4.519 -85.725 0.0
+surf u15 cyly  0.0 377.18  4.572 -85.725 0.0
+surf u16 cyly  0.0 377.18  0.710 -171.45 -85.725
+surf u17 cyly  0.0 377.18  3.607 -171.45 -85.725
+surf u18 cyly  0.0 377.18  3.690 -171.45 -85.725
+surf u19 cyly  0.0 377.18  4.519 -171.45 -85.725
+surf u110 cyly 0.0 377.18  4.572 -171.45 -85.725
+cell cu11  0 SS304 -u11      -bound
+cell cu12  0 moder -u12  u11 -bound
+cell cu13  0 SS304 -u13  u12 -bound
+cell cu14  0 moder -u14  u13 -bound
+cell cu15  0 clad  -u15  u14 -bound
+cell cu16  0 SS304 -u16      -bound
+cell cu17  0 moder -u17  u16 -bound
+cell cu18  0 SS304 -u18  u17 -bound
+cell cu19  0 moder -u19  u18 -bound
+cell cu110 0 clad  -u110 u19 -bound
+
+%Adjuster Rod u2 -----------------------------------%
+%surf name cyly x0  z0   r     y0      y1
+surf u21 cyly 57.15 377.18  0.650 -85.725 0.0
+surf u22 cyly 57.15 377.18  3.607 -85.725 0.0
+surf u23 cyly 57.15 377.18  3.725 -85.725 0.0
+surf u24 cyly 57.15 377.18  4.519 -85.725 0.0
+surf u25 cyly 57.15 377.18  4.572 -85.725 0.0
+surf u26 cyly 57.15 377.18  0.710 -171.45 -85.725
+surf u27 cyly 57.15 377.18  3.607 -171.45 -85.725
+surf u28 cyly 57.15 377.18  3.690 -171.45 -85.725
+surf u29 cyly 57.15 377.18  4.519 -171.45 -85.725
+surf u210 cyly 57.15 377.18 4.572 -171.45 -85.725
+cell cu21  0 SS304 -u21
+cell cu22  0 moder -u22 u21
+cell cu23  0 SS304 -u23 u22
+cell cu24  0 moder -u24 u23
+cell cu25  0 clad  -u25 u24
+cell cu26  0 SS304 -u26 
+cell cu27  0 moder -u27 u26
+cell cu28  0 SS304 -u28 u27
+cell cu29  0 moder -u29 u28
+cell cu210 0 clad  -u210 u29
+
+%Adjuster Rod u3 -----------------------------------%
+surf u31 cyly  114.3 377.18  0.650 -85.725 0.0
+surf u32 cyly  114.3 377.18  3.607 -85.725 0.0
+surf u33 cyly  114.3 377.18  3.725 -85.725 0.0
+surf u34 cyly  114.3 377.18  4.519 -85.725 0.0
+surf u35 cyly  114.3 377.18  4.572 -85.725 0.0
+surf u36 cyly  114.3 377.18  0.710 -171.45 -85.725
+surf u37 cyly  114.3 377.18  3.607 -171.45 -85.725
+surf u38 cyly  114.3 377.18  3.690 -171.45 -85.725
+surf u39 cyly  114.3 377.18  4.519 -171.45 -85.725
+surf u310 cyly 114.3 377.18  4.572 -171.45 -85.725
+cell cu31  0 SS304 -u31
+cell cu32  0 moder -u32 u31
+cell cu33  0 SS304 -u33 u32
+cell cu34  0 moder -u34 u33
+cell cu35  0 clad  -u35 u34
+cell cu36  0 SS304 -u36 
+cell cu37  0 moder -u37 u36
+cell cu38  0 SS304 -u38 u37
+cell cu39  0 moder -u39 u38
+cell cu310 0 clad  -u310 u39
+
+%Adjuster Rod u4 -----------------------------------%
+surf u41 cyly  171.45 377.18  0.650 -85.725 0.0
+surf u42 cyly  171.45 377.18  3.607 -85.725 0.0
+surf u43 cyly  171.45 377.18  3.725 -85.725 0.0
+surf u44 cyly  171.45 377.18  4.519 -85.725 0.0
+surf u45 cyly  171.45 377.18  4.572 -85.725 0.0
+surf u46 cyly  171.45 377.18  0.710 -171.45 -85.725
+surf u47 cyly  171.45 377.18  3.607 -171.45 -85.725
+surf u48 cyly  171.45 377.18  3.690 -171.45 -85.725
+surf u49 cyly  171.45 377.18  4.519 -171.45 -85.725
+surf u410 cyly 171.45 377.18  4.572 -171.45 -85.725
+cell cu41  0 SS304 -u41
+cell cu42  0 moder -u42  u41
+cell cu43  0 SS304 -u43  u42
+cell cu44  0 moder -u44  u43
+cell cu45  0 clad  -u45  u44
+cell cu46  0 SS304 -u46  
+cell cu47  0 moder -u47  u46
+cell cu48  0 SS304 -u48  u47
+cell cu49  0 moder -u49  u48
+cell cu410 0 clad  -u410 u49
+
+
+%Adjuster Rod l1 -----------------------------------%
+surf l11 cyly  0.0 217.49  0.650 -85.725 0.0
+surf l12 cyly  0.0 217.49  3.607 -85.725 0.0
+surf l13 cyly  0.0 217.49  3.725 -85.725 0.0
+surf l14 cyly  0.0 217.49  4.519 -85.725 0.0
+surf l15 cyly  0.0 217.49  4.572 -85.725 0.0
+surf l16 cyly  0.0 217.49  0.710 -171.45 -85.725
+surf l17 cyly  0.0 217.49  3.607 -171.45 -85.725
+surf l18 cyly  0.0 217.49  3.690 -171.45 -85.725
+surf l19 cyly  0.0 217.49  4.519 -171.45 -85.725
+surf l110 cyly 0.0 217.49  4.572 -171.45 -85.725
+cell cl11  0 SS304 -l11      -bound
+cell cl12  0 moder -l12  l11 -bound
+cell cl13  0 SS304 -l13  l12 -bound
+cell cl14  0 moder -l14  l13 -bound
+cell cl15  0 clad  -l15  l14 -bound
+cell cl16  0 SS304 -l16      -bound
+cell cl17  0 moder -l17  l16 -bound
+cell cl18  0 SS304 -l18  l17 -bound
+cell cl19  0 moder -l19  l18 -bound
+cell cl110 0 clad  -l110 l19 -bound
+
+%Adjuster Rod l2 -----------------------------------%
+%surf name cyly x0  z0   r     y0      y1
+surf l21 cyly 57.15 217.49  0.650 -85.725 0.0
+surf l22 cyly 57.15 217.49  3.607 -85.725 0.0
+surf l23 cyly 57.15 217.49  3.725 -85.725 0.0
+surf l24 cyly 57.15 217.49  4.519 -85.725 0.0
+surf l25 cyly 57.15 217.49  4.572 -85.725 0.0
+surf l26 cyly 57.15 217.49  0.710 -171.45 -85.725
+surf l27 cyly 57.15 217.49  3.607 -171.45 -85.725
+surf l28 cyly 57.15 217.49  3.690 -171.45 -85.725
+surf l29 cyly 57.15 217.49  4.519 -171.45 -85.725
+surf l210 cyly 57.15 217.49 4.572 -171.45 -85.725
+cell cl21  0 SS304 -l21
+cell cl22  0 moder -l22 l21
+cell cl23  0 SS304 -l23 l22
+cell cl24  0 moder -l24 l23
+cell cl25  0 clad  -l25 l24
+cell cl26  0 SS304 -l26 
+cell cl27  0 moder -l27 l26
+cell cl28  0 SS304 -l28 l27
+cell cl29  0 moder -l29 l28
+cell cl210 0 clad  -l210 l29
+
+%Adjuster Rod l3 -----------------------------------%
+surf l31 cyly  114.3 217.49  0.650 -85.725 0.0
+surf l32 cyly  114.3 217.49  3.607 -85.725 0.0
+surf l33 cyly  114.3 217.49  3.725 -85.725 0.0
+surf l34 cyly  114.3 217.49  4.519 -85.725 0.0
+surf l35 cyly  114.3 217.49  4.572 -85.725 0.0
+surf l36 cyly  114.3 217.49  0.710 -171.45 -85.725
+surf l37 cyly  114.3 217.49  3.607 -171.45 -85.725
+surf l38 cyly  114.3 217.49  3.690 -171.45 -85.725
+surf l39 cyly  114.3 217.49  4.519 -171.45 -85.725
+surf l310 cyly 114.3 217.49  4.572 -171.45 -85.725
+cell cl31  0 SS304 -l31
+cell cl32  0 moder -l32 l31
+cell cl33  0 SS304 -l33 l32
+cell cl34  0 moder -l34 l33
+cell cl35  0 clad  -l35 l34
+cell cl36  0 SS304 -l36 
+cell cl37  0 moder -l37 l36
+cell cl38  0 SS304 -l38 l37
+cell cl39  0 moder -l39 l38
+cell cl310 0 clad  -l310 l39
+
+%Adjuster Rod l4 -----------------------------------%
+surf l41 cyly  171.45 217.49  0.650 -85.725 0.0
+surf l42 cyly  171.45 217.49  3.607 -85.725 0.0
+surf l43 cyly  171.45 217.49  3.725 -85.725 0.0
+surf l44 cyly  171.45 217.49  4.519 -85.725 0.0
+surf l45 cyly  171.45 217.49  4.572 -85.725 0.0
+surf l46 cyly  171.45 217.49  0.710 -171.45 -85.725
+surf l47 cyly  171.45 217.49  3.607 -171.45 -85.725
+surf l48 cyly  171.45 217.49  3.690 -171.45 -85.725
+surf l49 cyly  171.45 217.49  4.519 -171.45 -85.725
+surf l410 cyly 171.45 217.49  4.572 -171.45 -85.725
+cell cl41  0 SS304 -l41
+cell cl42  0 moder -l42  l41
+cell cl43  0 SS304 -l43  l42
+cell cl44  0 moder -l44  l43
+cell cl45  0 clad  -l45  l44
+cell cl46  0 SS304 -l46  
+cell cl47  0 moder -l47  l46
+cell cl48  0 SS304 -l48  l47
+cell cl49  0 moder -l49  l48
+cell cl410 0 clad  -l410 l49
