@@ -10,11 +10,27 @@
 *-This script used Serpent 2.1.31, Python 3.2, and SerpentTools.*
 
 ### **refueler.py:**
-#### Python script used for checking results, refueling/fuel shuffling, and writing new Serpent 2 input files (fuelmats).
+*-Python script used for checking results, refueling/fuel shuffling, and writing new Serpent 2 input files (fuelmats).*
 
 ### **burnmodel:**
-#### Primary Serpent 2 input file
-*-fdsa*
+*-Primary Serpent 2 input file*
+
+*-Declares material and geometry files locations, cross-section data, neutronics specifications, burnup specifications, and various other parameters.*
 
 ### **fuelmats:**
-#### Serpent 2 material definitions for all 1140 fuel bundles.
+*-Material definitions for all 1140 fuel bundles.*
+
+### **structuremats:**
+*-Material definitions for all other structures.*
+
+### **fuelpins:**
+*-Geometry for fuel pins
+
+### **bundles:**
+*-Geometry for fuel bundles
+
+### **channels:**
+*-Geometry for fuel channels
+
+### **core:**
+*-Geometry for quarter-core
