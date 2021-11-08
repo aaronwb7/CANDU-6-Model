@@ -24,13 +24,13 @@
 *-Material definitions for all other structures.*
 
 ### **fuelpins:**
-*-Geometry for fuel pins
+*-Geometry for fuel pins*
 
 ### **bundles:**
-*-Geometry for fuel bundles
+*-Geometry for fuel bundles*
 
 ### **channels:**
-*-Geometry for fuel channels
+*-Geometry for fuel channels*
 
 ### **core:**
-*-Geometry for quarter-core
+*-Geometry for quarter-core*
