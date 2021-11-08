@@ -15,7 +15,7 @@
 ### **burnmodel:**
 *-Primary Serpent 2 input file*
 
-*-Declares material and geometry files locations, cross-section data, neutronics specifications, burnup specifications, and various other parameters.*
+*-Declares material and geometry file locations, cross-section data, neutronics specifications, burnup specifications, and various other parameters.*
 
 ### **fuelmats:**
 *-Material definitions for all 1140 fuel bundles.*
